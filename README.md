@@ -42,4 +42,16 @@ Note that cell types are coded as described above. The reconstruction algorithm 
   - **TrialN**: Total number of islets generated for the current value of Temp.
   - **Time**: Date and time of completion of the corresponding Temp step. 
 
+4. **H01_aa_contacts.txt**
+5. **H01_ab_contacts.txt**
+6. **H01_bb_contacts.txt** 
+7. **H01_global_contacts.txt**
 
+These files contain the cell-to-cell contacts identified by the reconstruction algorithm. Contact files are N x N matrices (where N is the number of cells in the islet). The file name indicate the type of cell-to-cell contacts included (aa = alpha-alpha contacts, bb = beta-beta contacts, ab = alpha-beta contacts, global = all the cell-to-cell contacts).
+ 
+8. **H01_ab_network.png**
+9. **H01_bb_network.png**
+
+These files are a graphical representation of the alpha-beta and beta-beta networks formed, respectively. 
+
+10. **H01_vis.png**.- Visualization of the reconstructed islet.
