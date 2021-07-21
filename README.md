@@ -17,3 +17,6 @@ Within each islet folder you will find the following files (using islet H01 as e
 1. **H01_Experimental_Arch.txt**.- The experimental architecture as provided by Hoang et al. with the following structure:
 
 | Cell type  | x coordinate | y coordinate | z coordinate |
+| ----------- | ----------- | ----------- | ----------- |
+
+Cell types are coded as 12: beta, 11: alpha and 13: delta cells.
