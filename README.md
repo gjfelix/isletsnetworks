@@ -11,3 +11,9 @@
 - Islets numbering is the same than that used by Hoang et al. in their datasets.
 
 **Files description**
+
+Within each islet folder you will find the following files (using islet H01 as example):
+
+1. **H01_Experimental_Arch.txt**.- The experimental architecture as provided by Hoang et al. with the following structure:
+
+| Cell type  | x coordinate | y coordinate | z coordinate |
