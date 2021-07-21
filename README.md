@@ -34,12 +34,12 @@ Note that cell types are coded as described above. The reconstruction algorithm 
 
 3. **H01_ReconstructionLog.txt**.- Log file describing the reconstruction process describing the evolution of the optimization algorithm. Parameters included are:
 
-- **Temperature**: parameter related to the acceptance of islets with a higher number of overlapped cells as a way to prevent getting traped in a local minimum (as the temperature decreases this probability decreases accordingly).
-- **E**: The number of overlapped cells for the current value of Temp.
-- **minE**: minimum number of overlaped cells for the current value of Temp.
-- **maxE**: maximum number of overlapped cells for the current value of Temp.
-- **AcceptN**: Count of accepted islets for the current value of Temp.
-- **TrialN**: Total number of islets generated for the current value of Temp.
-- **Time**: Date and time of completion of the corresponding Temp step. 
+  - **Temperature**: parameter related to the acceptance of islets with a higher number of overlapped cells as a way to prevent getting traped in a local minimum (as the temperature decreases this probability decreases accordingly).
+  - **E**: The number of overlapped cells for the current value of Temp.
+  - **minE**: minimum number of overlaped cells for the current value of Temp.
+  - **maxE**: maximum number of overlapped cells for the current value of Temp.
+  - **AcceptN**: Count of accepted islets for the current value of Temp.
+  - **TrialN**: Total number of islets generated for the current value of Temp.
+  - **Time**: Date and time of completion of the corresponding Temp step. 
 
 
