@@ -3,6 +3,6 @@
 
 ### Gerardo J. Félix-Martínez and J. Rafael Godínez Fernández
 
-** Basic description **
+**Basic description**
 
 Datasets, visualizations and additional files from human and mouse islets in the corresponding folder.
